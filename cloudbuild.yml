@@ -1,5 +1,5 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
-    args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/docker-node/docker-node:test', '.' ]
+    args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/testrepo/docker-node:0.0.1', '.' ]
 images:
-  - 'us-central1-docker.pkg.dev/$PROJECT_ID/docker-node/docker-node:test'
+  - 'us-central1-docker.pkg.dev/$PROJECT_ID/testrepo/docker-node:0.0.1'
